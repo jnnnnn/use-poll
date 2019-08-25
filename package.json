@@ -1,10 +1,10 @@
 {
-  "name": "@use-it/interval",
+  "name": "@jnnnnn/use-poll",
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.1.3",
-  "description": "A custom React Hook that provides a declarative useInterval.",
+  "version": "1.0.0",
+  "description": "A custom React Hook that will repeatedly call a function and await the result.",
   "main": "dist/interval.js",
   "umd:main": "dist/interval.umd.js",
   "module": "dist/interval.m.js",
@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/donavon/use-interval.git"
+    "url": "https://github.com/jnnnnn/use-poll.git"
   },
   "scripts": {
     "prepublishOnly": "npm run build",
@@ -32,7 +32,7 @@
     "lib",
     "interval"
   ],
-  "author": "donavon",
+  "author": "jnnnnn",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
